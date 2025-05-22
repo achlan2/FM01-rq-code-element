@@ -14,6 +14,7 @@
   letter-spacing: 0px;
   font-weight: 700;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
+  color: var(--color-slate-900);
 }
 
 .typography-outfit-regular {
@@ -21,6 +22,7 @@
   line-height: 140%;
   letter-spacing: 0.2px;
   font-weight: 400;
+  color: var(--color-slate-500);
 }
 
 body {
@@ -33,7 +35,7 @@ body {
 }
 
 #app {
-  max-width: 320px;
+  width: min-content;
   background-color: var(--color-white);
   padding: 16px;
   position: relative;
@@ -42,7 +44,7 @@ body {
 
 img {
   height: 100%;
-  width: 100%;
+  max-width: 288px;
   border-radius: 10px;
 }
 
